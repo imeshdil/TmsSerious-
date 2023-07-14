@@ -32,9 +32,9 @@ AUTH_CHANNEL = -1001772183420
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Anurag")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Anurag_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ImeshDilshan:ImeshDilshan@cluster0.xoh2wlj.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "ImeshDilshan")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'ImeshDilshan_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001772183420'))
